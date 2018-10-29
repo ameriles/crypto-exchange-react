@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import './scss/app.scss';
+
 ReactDOM.render(
     <div>
         <h1>Hello World!</h1>
