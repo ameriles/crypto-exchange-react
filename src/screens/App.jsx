@@ -1,15 +1,15 @@
 import React from 'react';
 
 import Header from './UI/Header.jsx';
-import Body   from './UI/Body.jsx';
+import Main   from './UI/Main.jsx';
 import Footer from './UI/Footer.jsx';
 
-const Root = () => (
+const App = () => (
     <div>
         <Header/>
-        <Body/>
+        <Main/>
         <Footer/>
     </div>
 );
 
-export default Root;
+export default App;
