@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Root from './screens/Root.jsx';
 
 import './scss/app.scss';
 
+import 'jquery';
+import 'bootstrap/dist/js/bootstrap';
+
 ReactDOM.render(
-    <div>
-        <h1>Hello World!</h1>
-        <h2>from React JSX</h2>
-    </div>,
+    <Root />,
     document.getElementById("root")
 );
